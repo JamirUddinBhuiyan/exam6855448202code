@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/jpg" href="images/favicon.jpg">
+</head>
+
+<body>
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-warning">
+            <a class="navbar-brand" href="#"><img src="images/Logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">My Account</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Wishlist</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Register</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <form class="d-flex">
+                    <button class="btn btn-outline-success m-3" type="submit">Add to Card</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Banner Start -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" data-bs-interval="1200">
+            <div class="carousel-item active">
+                <img src="images/Banner_04.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1200">
+                <img src="images/Banner_02.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="1200">
+                <img src="images/Banner_03.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Banner End -->
+
+
+    <!-- Menu bar Start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid bg-warning">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product.html">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product-Details.html">Product-Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Signup.html">Signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="checkout.html">Checkout</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Menu bar End -->
+
+
+<!-- Best Seller Product start -->
+    <section class="container py-3">
+        <div>
+            <h3 class="text-center mb-3">
+                <span class="border border-3 border-dark border-start-0 border-top-0 border-end-0">Best Seller</span>
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/BestSell_01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: UPS</h5>
+                        <p class="card-text">Price: BDT 3000.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/BestSell_02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Mobile</h5>
+                        <p class="card-text">Price: BDT 6000.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/BestSell_03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Headphone</h5>
+                        <p class="card-text">Price: BDT 1200.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/BestSell_04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: WebCam</h5>
+                        <p class="card-text">Price: BDT 3500.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- Best Seller Product End -->
+
+<!-- New Product start -->
+    <section class="container py-3">
+        <div>
+            <h3 class="text-center mb-3">
+                <span class="border border-3 border-dark border-start-0 border-top-0 border-end-0">New Product</span>
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/NewPro_01.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Smart Headphone</h5>
+                        <p class="card-text">Price: BDT 3000.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/NewPro_02.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Mouse</h5>
+                        <p class="card-text">Price: BDT 300.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/NewPro_03.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Sound Box</h5>
+                        <p class="card-text">Price: BDT 3600.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+                        <div class="col-sm-6 col-md-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/NewPro_04.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Prodcut: Laptop</h5>
+                        <p class="card-text">Price: BDT 33000.00</p>
+                        <a href="#" class="btn btn-primary">Add to Card</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+<!-- New Product End -->
+ <section>
+    <div class=" bg-dark py-2">
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <h4>&copy; -2025 Right Reserved </h4>
+          <p id="currentDateTime"></p>
+    </footer>
+ </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
+
+
+<--======================================================index page End===================================================================-->
+
+
+
+
+
+
+<--======================================================Product page Start===================================================================-->
+<!-- Product Page start -->
+    <section class="container py-5">
+        <!-- Breadcrumb start -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product List</li>
+            </ol>
+        </nav>
+        <!-- Breadcrumb end -->
+        <div class="row gy-4">
+            <div class="col-12 col-md-3">
+                <!-- title start -->
+                <h2 class="text-center mb-3">
+                    <span class="border border-dark border-3 border-start-0 border-top-0 border-end-0">Categories</span>
+                </h2>
+                <!-- title end -->
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Select Categories
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <ul class="categories">
+                                <li><a href="">Mens Fashion</a></li>
+                                <li><a href="">Womens Fashion</a></li>
+                                <li><a href="">Child & Baby</a></li>
+                                <li><a href="">Accesories</a></li>
+                                <li><a href="">Home Appliens</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9">
+                <section class="container">
+                    <!-- title start -->
+                    <h2 class="text-center mb-3">
+                        <span class="border border-dark border-3 border-start-0 border-top-0 border-end-0">Mens Fashion</span>
+                    </h2>
+                    <!-- title end -->
+                    <div class="row">
+                        <!-- product item start -->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="images/BestSell_01.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product: UPS</h5>
+                                    <h6 class="card-text">BDT 3400</h6>
+                                    <a href="#" class="btn btn-sm btn-outline-success d-block w-100">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product item end -->
+                        <!-- product item start -->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="images/BestSell_02.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product: Mobile</h5>
+                                    <h6 class="card-text">BDT 9490</h6>
+                                    <a href="#" class="btn btn-sm btn-outline-success d-block w-100">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product item end -->
+                        <!-- product item start -->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="images/BestSell_03.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product: XXX</h5>
+                                    <h6 class="card-text">BDT 1349</h6>
+                                    <a href="#" class="btn btn-sm btn-outline-success d-block w-100">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product item end -->
+                        <!-- product item start -->
+                        <div class="col-sm-6 col-md-6 col-lg-3">
+                            <div class="card">
+                                <img src="images/BestSell_04.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Product: Webcam</h5>
+                                    <h6 class="card-text">BDT 3049</h6>
+                                    <a href="#" class="btn btn-sm btn-outline-success d-block w-100">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- product item end -->
+                    </div>
+                </section>
+            </div>
+        </div>
+    </section>
+    <!-- Product Page end -->
+<section>
+    <div class=" bg-dark py-2">
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <h4>&copy; -2025 Right Reserved </h4>
+          <p id="currentDateTime"></p>
+    </footer>
+ </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+</html>
+
+
+
+<--======================================================Product page End===================================================================-->
+
+
+
+<--======================================================Product Details Start===================================================================-->
+
+<!-- Product Page start -->
+    <section class="container py-5">
+        <!-- Breadcrumb start -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="index.html">Product</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+            </ol>
+        </nav>
+        <!-- Breadcrumb end -->
+         <div class="row gy-4">
+            <div class="col-12 col-md-4">
+                <div class="p-image">
+                    <img src="images/Image 01.jpg" alt="" class="img-fluid img-thumbnail">
+                </div>
+                </div>
+            <div class="col-12 col-md-8">
+                   <h2>LED Light Mushroom for Home</h2>
+                    <p>Brand: Oraimo</p>
+                    <p>Color: Orange</p> 
+                    <p class="y-2">Price: BDT 3,299</p> 
+                    <button type="button" class=" btn btn-outline-success">Add to Cart</button>
+                    <button type="button" class=" btn btn-outline-success">Product View</button>
+                </div>
+            </div>
+    </section>
+    <!-- Product Details Page end -->
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <div class="row">
+            <div class="col-12">
+                <p class="m-0">&copy; 2025 - All Right Reserved.</p>
+                  <p id="currentDateTime"></p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+<--======================================================Product Details End===================================================================-->
+
+
+<--===================================================== Signup Sart ===========================================================================-->
+<!-- Signup start -->
+    <section class="container py-3">
+        <div>
+            <h3 class="text-center mb-3">
+                <span class="border border-3 border-dark border-start-0 border-top-0 border-end-0">Signup</span>
+            </h3>
+        </div>
+
+
+        <form class="row g-3" onsubmit="clickAlert()">
+
+            <div class="col-sm-12 col-md-6">
+                <label for="inputFirstName" class="form-label">Name:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="First Name">
+            </div>
+
+            <div class="col-sm-12  col-md-6">
+                <label for="inputFirstName" class="form-label">Last Name:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="Last Name">
+            </div>
+
+            <div class="col-sm-12  col-md-6">
+                <label for="inputFirstName" class="form-label">Phone:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="+0088">
+            </div>
+            <div class="col-sm-12  col-md-6">
+                <label for="inputUserName" class="form-label">User Name:</label>
+                <input type="text" class="form-control border-dark" id="inputUserName" placeholder="">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email:</label>
+                <input type="email" class="form-control border-dark" id="inputEmail4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password:</label>
+                <input type="password" class="form-control border-dark" id="inputPassword4">
+            </div>
+            
+                <button type="submit" class="btn btn-primary col-sm-12 col-md-6 offset-md-3 mb-3">Signup</button>
+        </form>
+        </section>
+
+<section>
+    <div class=" bg-dark py-2">
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <h4>&copy; -2025 Right Reserved </h4>
+          <p id="currentDateTime"></p>
+    </footer>
+
+ </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
+<--===================================================== Signup End ===========================================================================-->
+
+
+
+<--===================================================== Login Start===========================================================================-->
+
+        <!-- Login Start-->
+        <section class="container py-3">
+            <div>
+                <h3 class="text-center mb-3">
+                    <span class="border border-3 border-dark border-start-0 border-top-0 border-end-0">Signup</span>
+                </h3>
+            </div>
+
+
+            <form class="row g-3" onsubmit="clickAlert()">
+                <div class="col-sm-12 col-md-6">
+                    <label for="inputEmail4" class="form-label">Email:</label>
+                    <input type="email" class="form-control border-dark" id="inputEmail4">
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <label for="inputPassword4" class="form-label">Password:</label>
+                    <input type="password" class="form-control border-dark" id="inputPassword4">
+                </div>
+               <button pe="submit" class="btn btn-primary col-sm-12 col-md-6 offset-md-3 mb-3">Sign in</button>
+             </form>
+</section>
+
+       <section>
+    <div class=" bg-dark py-2">
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <h4>&copy; -2025 Right Reserved </h4>
+          <p id="currentDateTime"></p>
+    </footer>
+ </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+</body>
+
+</html>
+
+<--===================================================== Login End===========================================================================-->
+
+
+
+<--===================================================== Login Checkout page Start==================================================================-->
+
+///// for checkout page html //////
+    <!-- checkout page start -->
+    <section class="container py-4">
+        <h2 class="text-center">
+            <span class="border border-3 border-dark border-start-0 border-end-0 border-top-0">Checkout Page</span>
+        </h2>
+        <div class="row gy-4">
+            <div class="col-lg-8">
+                <div class="row align-items-center checkout-details border">
+                    <div class="col-3">
+                        <img src="images/NewPro_02.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-4">
+                        <h4>সময় অসময়ের মুক্তিযুদ্ধ</h4>
+                        <p>জ্যোতিপ্রকাশ দত্ত</p>
+                    </div>
+                    <div class="col-3">
+                        <form action="" class="d-flex">
+        <button type="button" class="btn btn-outline-info" onclick="decrement()">-</button>
+        <input type="text" name="quantity" id="quantity" class="form-control  text-center">
+        <button type="button"  class="btn btn-outline-info" onclick="increment()">+</button>
+                        </form>
+                    </div>
+                    <div class="col-2">
+                         <p> <span id="price">200</span> BDT</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="checkout-summary">
+                    <table class="table">
+                        <tr>
+                            <td>Subtotal</td>
+                            <td><span id="subTotal">200</span> TK</td>
+                        </tr>
+                        <tr>
+                            <td>Delivery Fee</td>
+                            <td><span id="deliveryCharge">50</span> TK</td>
+                        </tr>
+                        <tr>
+                            <td>Payable Total</td>
+                            <td><span id="totalPayable">250</span> TK</td>
+                        </tr>
+                    </table>
+                    <a href="" class="btn btn-outline-success d-block w-100">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- checkout page end -->
+
+    <div class=" bg-dark py-2">
+    <footer class="container-fluid text-center bg-dark text-light py-3">
+        <h4>&copy; -2025 Right Reserved </h4>
+        <p id="currentDateTime"></p>
+    </footer>
+ </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </body>
+
+</html>
+
+<--===================================================== Login Checkout page End==================================================================-->
+
+
+
+<--===================================================== JavaScript Start=========================================================================-->
+
+/// signup /////
+
+        function clickAlert() {
+            alert("Hello, Are you sure?");
+        }
+
+document.addEventListener("DOMContentLoaded", function() {
+    function updateDateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric', 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit' 
+        };
+        const formattedDateTime = now.toLocaleDateString('en-US', options);
+        document.getElementById('currentDateTime').textContent = formattedDateTime;
+    }
+ 
+    // Call the function once immediately to display the time on page load
+    updateDateTime();
+ 
+    // Update the time every second
+    setInterval(updateDateTime, 1000); 
+});
+
+
+
+
+        // checkout page
+        let data =  1;
+
+        //get amount
+        let getPrice =  document.getElementById('price').innerHTML;  
+        let getDeliveryCharge =  document.getElementById('deliveryCharge').innerHTML;  
+
+        //insert quantity in input field
+        document.getElementById('quantity').value = data;
+
+        //creation of increment function
+        function increment() {
+            data = data + 1;
+            document.getElementById('quantity').value = data;
+            
+            document.getElementById('price').innerHTML = (data * getPrice);  
+            document.getElementById('subTotal').innerHTML = (data * getPrice);           
+            document.getElementById('totalPayable').innerHTML = (data * getPrice) + parseInt(getDeliveryCharge);          
+        }
+
+        //creation of decrement function
+        function decrement() {
+            if(data > 1){
+                data = data - 1;
+                document.getElementById('quantity').value = data;
+
+                document.getElementById('price').innerHTML = (data * getPrice);  
+                document.getElementById('subTotal').innerHTML = (data * getPrice);           
+                document.getElementById('totalPayable').innerHTML = (data * getPrice) + parseInt(getDeliveryCharge); 
+            }else{
+                alert('please insert value greater than one');
+            } 
+        }
+   
+<--===================================================== JavaScript End=========================================================================-->
+
+
+
+
+
+<--===================================================== CSS File================================================================================-->
+.navbar .nav-link{
+    color: blueviolet;
+}
+.navbar .nav-link.active{
+    color: blueviolet;
+}
+.navbar .nav-link:hover{
+    color: #000;
+}
+.nav-item a{
+border-radius: 5px;
+}
+.nav-link.active:hover,
+.nav-link:hover {
+    background-color: #fff;
+}
+ul.categories li{
+    list-style: none;
+}
+
+ul.categories li a{
+    color:blue;
+    text-decoration: none;
+    border-bottom: 5px sloid black;
+    transition:0.5s linear;
+    border-radius: 10px;
+}
+ul.categories li a:hover{
+    color:black;
+    text-decoration: none;
+    border-bottom: 2px solid hsl(103, 90%, 16%);
+}
+.p-image{
+    overflow:hidden;
+
+}
+.p-image img{
+    transition: .5s linear;
+    }
+.p-image img:hover{
+    transform: scale(1.3);
+    cursor:pointer;
+}
+
+
+
+<--===================================================== CSS File================================================================================-->
+
+

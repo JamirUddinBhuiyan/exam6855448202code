@@ -1,0 +1,477 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link type="image/jpg" rel="icon" href="images/logo.jpg">
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid bg-warning">
+    <a class="navbar-brand" href="index.html"> <img src="images/logo.jpg" alt="" class="img-fluid">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About Us.html">About Us</a>
+        </li>
+             <li class="nav-item">
+          <a class="nav-link" href="Contact Us.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li> 
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="1000">
+      <img src="images/Banner-01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="images/Banner-02.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="1000">
+      <img src="images/Banner-03.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Banner End -->
+
+<!-- Food Items Start -->
+<section class="container py-5">
+       <h1 class="text-center mb-3">
+        <span class="border border-4 border-dark border-start-0 border-end-0 bor border-top-0 "> Food Items</span>
+    </h1>
+     <div class="row">
+    
+        <div class="col-sm-6 col-md-3">
+            <img src="images/Food Item-burger.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Burger</h5>
+                <p class="card-text">BDT 300.00</p>
+                <a href="#" class="btn btn-primary d-block w-100">Add to Card</a>
+            </div>
+            </div>
+
+    <div class="col-sm-6 col-md-3">
+            <img src="images/Food Item-Cake.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cake</h5>
+                <p class="card-text">BDT 1200.00</p>
+                <a href="#" class="btn btn-primary d-block w-100">Add to Card</a>
+            </div>
+            </div>
+
+    <div class="col-sm-6 col-md-3">
+            <img src="images/Food Item-nodles.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Noodles</h5>
+                <p class="card-text">BDT 200.00</p>
+                <a href="#" class="btn btn-primary d-block w-100">Add to Card</a>
+            </div>
+            </div>
+
+    <div class="col-sm-6 col-md-3">
+            <img src="images/Food Item-pizza.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pizza</h5>
+                <p class="card-text">BDT 1200.00</p>
+                <a href="#" class="btn btn-primary d-block w-100">Add to Card</a>
+            </div>
+            </div>
+</div>
+</section>
+        <!-- Food items End -->
+
+        
+        <!-- Customer Feedback Start -->
+
+<section class="container py-3">
+    <h4 class="text-center">
+        <span class="border border-3 border-start-0 border-end-0 border-top-0 border-dark"> Customers Feedback</span>
+    </h4>
+    <div class="row">
+
+        <div class="col-sm-6 col-md-3">
+             <img src="images/Staff_01.jpg" alt="" class="img-fluid rounded-circle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatem atque consequatur, velit dolore quisquam eos unde fugit officia exercitationem. Ratione exercitationem omnis excepturi molestiae neque, deserunt inventore obcaecati dignissimos!
+           </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+             <img src="images/Customer-03.jpg" alt="" class="img-fluid rounded-circle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatem atque consequatur, velit dolore quisquam eos unde fugit officia exercitationem. Ratione exercitationem omnis excepturi molestiae neque, deserunt inventore obcaecati dignissimos!
+           </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+             <img src="images/Customer_02.png" alt="" class="img-fluid rounded-circle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatem atque consequatur, velit dolore quisquam eos unde fugit officia exercitationem. Ratione exercitationem omnis excepturi molestiae neque, deserunt inventore obcaecati dignissimos!
+           </p>
+        </div>
+
+        <div class="col-sm-6 col-md-3">
+             <img src="images/Staff-03.jpeg" alt="" class="img-fluid rounded-circle">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptatem atque consequatur, velit dolore quisquam eos unde fugit officia exercitationem. Ratione exercitationem omnis excepturi molestiae neque, deserunt inventore obcaecati dignissimos!
+           </p>
+        </div>
+
+    </div>
+</section>
+    <!-- Customer Feedback End -->
+
+
+<!-- Photo Gallery Start -->
+<section class="container py-3">
+    <h4 class="text-center">
+        <span class="border border-3 border-start-0 border-end-0 border-top-0 border-dark"> Image Gallary</span>
+    </h4>
+    <div class="row">
+
+        <div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-01.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+
+<div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-02.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+
+
+<div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-04.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-05.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-06.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-05.jpg" class="rounded" alt="...">
+        </div>
+        </div>
+      
+
+          <div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Staff_01.jpg" class="rounded" alt="...">
+        </div>
+    </div>
+
+<div class="col-sm-6 col-md-3 py-2">
+            <div class="text-center">
+            <img src="images/Gallery-04.jpg" class="rounded" alt="...">
+        </div>
+    </div>
+
+    </div>
+        </section>
+<!-- Photo Gallery End -->
+
+        <footer class=" bg-dark text-light py-2">
+            <h5 class="text-center"> &copy 2025-All right Reserved</h5>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<-- ================================ index End=================================-->
+
+
+<-- ================================ About page Start================================-->
+<!-- Staff profiles Start -->
+<section class="container py-5">
+       <h1 class="text-center mb-3">
+        <span class="border border-4 border-dark border-start-0 border-end-0 bor border-top-0 "> Staff Profiles</span>
+    </h1>
+     <div class="row">
+    
+        <div class="col-sm-6 col-md-4 py-2">
+            <img src="images/Staff_01.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mr.XXXX</h5>
+                <p class="card-text">Department: Sales and Marketing</p>
+                <a href="#" class="btn btn-primary d-block w-100" target="_blank">Biography</a>
+            </div>
+            </div>
+
+    <div class="col-sm-6 col-md-4 py-2">
+            <img src="images/Staff_02.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mr.YYYY</h5>
+                <p class="card-text">Department: Service</p>
+                <a href="#" class="btn btn-primary d-block w-100" target="_blank" >Biography</a>
+            </div>
+            </div>
+
+ <div class="col-sm-6 col-md-4 py-2">
+            <img src="images/Staff-03.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mr.ZZZZ</h5>
+                <p class="card-text">Department: Cook</p>
+                <a href="#" class="btn btn-primary d-block w-100" target="_blank">Biography</a>
+            </div>
+            </div>
+
+</div>
+</section>
+      <!-- Staff profiles End -->
+
+ <!-- About Company start-->
+<section class="container py-3">
+    <h4 class="text-center">
+        <span class="border border-3 border-start-0 border-end-0 border-top-0 border-dark"> About Company</span>
+    </h4>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="images/Company page.webp" class="card-img-top py-3" alt="...">
+            </div>
+    <div class="col-md-9">
+            <p class="card-text py-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam illum unde vero modi saepe sapiente blanditiis. Sint alias at possimus quod veniam vel quaerat in maiores, aliquid suscipit, eos maxime? Ut tenetur labore error! Eos natus laborum voluptates enim aliquam distinctio, vitae non voluptate esse reiciendis aliquid impedit possimus explicabo accusamus rem dolores ipsam fuga incidunt asperiores eveniet unde! Vitae dicta porro dolor fugit commodi unde, aut distinctio enim maiores neque tempora iure. Voluptatibus maxime neque provident aperiam, eius saepe dolore debitis optio quia. Quis dignissimos aspernatur dolor, id labore soluta commodi architecto excepturi, dolorum rerum facilis voluptatem fugit repudiandae.</p>
+            </div>
+            </div>
+    <!-- About Company End-->
+
+
+
+        <footer class=" bg-dark text-light py-2">
+            <h5 class="text-center"> &copy 2025-All right Reserved</h5>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<-- ================================ About page End================================-->
+
+
+
+<-- ================================ FAQ Start================================-->
+        <!-- Customer FAQ Start -->
+
+<section class="container py-3">
+           <h5 class="text-center">
+            <span class=" border border-dark border-3 border-start-0 border-end-0 border-top-0">FAQ</span>
+           </h5>
+           <!-- Accordion FAQ start -->
+           <div class="row">
+            <div class="col-md-8 py-2">
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        FAQ Question__01?
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Your answer__01.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+         FAQ Question__02?
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Your answer__02.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+         FAQ Question__03?
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Your answer__03.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+         FAQ Question__04?
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Your answer__04.</div>
+    </div>
+  </div>
+
+
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+         FAQ Question__05?
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Your answer__05. </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Accodion End -->
+
+<div class="col-md-4 py-2">
+<h5>Member list:</h5>
+<ul class="MemberList py-2">
+    <li> <a href="https://www.w3schools.com"> Jamir Uddin Bhuiyna </a></li>
+       <li> <a href="https://www.w3schools.com"> Abu Ubaidah Jabir </a></li>
+          <li> <a href="https://www.w3schools.com"> Seema </a></li>
+             <li> <a href="https://www.w3schools.com"> Khadiza </a></li>
+                <li> <a href="https://www.w3schools.com"> Swarna </a></li>
+</ul>
+</div>
+
+    </div>
+</section>
+
+        <footer class=" bg-dark text-light py-2">
+            <h5 class="text-center"> &copy 2025-All right Reserved</h5>
+        </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<-- ================================ FAQ End================================-->
+
+
+
+<-- ================================ Contact Us  Start================================-->
+<form class="row g-3">
+
+            <div class="col-sm-12 col-md-6">
+                <label for="inputFirstName" class="form-label">Name:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="First Name">
+            </div>
+
+            <div class="col-sm-12  col-md-6">
+                <label for="inputFirstName" class="form-label">Last Name:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="Last Name">
+            </div>
+
+            <div class="col-sm-12  col-md-6">
+                <label for="inputFirstName" class="form-label">Phone:</label>
+                <input type="text" class="form-control border-dark" id="inputFirstName" placeholder="+0088">
+            </div>
+            <div class="col-sm-12  col-md-6">
+                <label for="inputUserName" class="form-label">User Name:</label>
+                <input type="text" class="form-control border-dark" id="inputUserName" placeholder="">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email:</label>
+                <input type="email" class="form-control border-dark" id="inputEmail4">
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password:</label>
+                <input type="password" class="form-control border-dark" id="inputPassword4">
+            </div>
+            
+                <button type="submit" class="btn btn-primary col-sm-12 col-md-6 offset-md-3 mb-3">Signup</button>
+          
+
+        </form>
+</section>
+   <footer class="container-fluid text-center bg-dark text-light py-3">
+        <div class="row">
+            <div class="col-12">
+                <p class="m-0"> &copy; 2025 - All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</section>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+                crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<-- ================================ Contact Us End ===============================-->
+
+
+
+
+
+
+
+
+<-- ================================ CSS================================-->
+
+.MemberList{
+    margin: 0;
+    padding: 0;
+}
+.MemberList li{
+    list-style: none;
+    }
+.MemberList li a{
+    color:#fff;
+    background: teal;
+    text-decoration: none;
+    border-radius: 10px;
+    display:block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    transition: .2s linear;
+}
+.MemberList li a:hover{
+    color:#000;
+}
+
+

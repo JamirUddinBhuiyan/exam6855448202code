@@ -1,0 +1,474 @@
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+  <body>
+
+<!-- Banner Start -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/Cover_01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/Cover_02.jpg" class="d-block w-100 " alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/Cover_03.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Banner End -->
+
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="img-fluid"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="About Us.html">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact us.html">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- Navbar End -->
+
+<!-- Course Details Start -->
+    <section class="container">
+        <div class="row">
+            <h2 class="text-center mb-3">
+            <span class="border border-dark border-3 border-top-0 border-end-0 border-start-0 px-4">Offering Courses</span>
+            </h2> 
+  <div>
+<table class="table table-bordered border-dark p-3 m-2 table-hover ">
+  <thead>
+    <tr class=" text-center">
+      <th scope="col">SL No.</th>
+      <th scope="col">Course Name</th>
+      <th scope="col">Course Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Web Design and Development</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed nihil, minima consequatur beatae voluptate odio fuga. Veritatis culpa modi inventore veniam magni sed molestiae, totam ipsum nisi dolores consectetur magnam! Minima libero maiores praesentium sequi, corporis molestias dolorem architecto ad magnam cum ipsam eius sint dolore qui odio autem?</td>
+      
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Database Management System</td>
+      <td>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus error, architecto veniam, delectus, neque nihil repudiandae quasi consequatur a hic eum voluptatum officia culpa ipsam? Est, dolor porro quas accusantium aspernatur facere voluptates delectus saepe, illum odio optio et, aliquam repellat totam. Quidem molestias alias vel doloremque, sit magnam c</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Apps Development Using Python</td>
+      <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa voluptate laudantium quasi vel harum mollitia dolorum dolor sint culpa quos eos praesentium tempora placeat temporibus quis accusantium numquam, earum officiis officia rerum recusandae rem corporis? Maiores, quaerat libero. Voluptatibus distinctio atque nisi necessitatibus ducimus laudantium fuga dolore accusantium maiores quasi.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</section>
+<!-- Course Details End -->
+
+ <!-- Photo Gallery Start -->
+    <section class="container">
+        <div class="row">
+            <h2 class="text-center mb-3 bg-success">
+                <span class="border border-dark border-3 border-top-0 border-end-0 border-start-0 px-4">Photo Gallery</span>
+            </h2> 
+            <div class="row">
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/Stdunt_01.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+                 
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/Student_02.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+                       
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/Student-03.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/student_04.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+                
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/Student_05.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+                
+                <div class="col-sm-6 col-md-4" >
+                    <img src="images/Student_06.jpg" alt="" class="img-fulid">
+                    <h5>Student Photo</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- Photo Gallery End -->
+    <footer class=" bg-dark text-light">
+        <h5 class=" text-center py-3 m-3"> 
+            &copy 2025- All right reserved.
+        </h5>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+<--=============================================End Index page======================================-->
+
+
+<--=============================================about page==========================================-->
+ <!-- Institute Staff Profile Start-->
+    <section class="container">
+      <div class="row">
+        <h1 class=" text-center mb-3">
+          <span class="border border-3 border-start-0 border-end-0 border-top-0 border-dark"> Staff Profile</span>
+        </h1>
+      </div>
+
+        <div class="row">
+            <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+        <img src="images/satff-02.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">College Staff</h5>
+            <a href="#" class="btn btn-primary">About Staff</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+        <img src="images/satff.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">College Staff</h5>
+            <a href="#" class="btn btn-primary">About Staff</a>
+        </div>
+        </div>
+        </div>
+
+        <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+        <img src="images/Staff-03.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">College Staff</h5>
+            <a href="#" class="btn btn-primary">About Staff</a>
+        </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container brand-details my-3">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/Company page.jpg" class="img-fluid" alt="" class="">
+          <h5 class="text-center">Company Image</h5>
+        </div>
+        
+       <div class="col-md-9">
+        <h1>Company Details</h1> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, odit? Nisi harum reprehenderit consectetur, non perferendis sed, pariatur architecto illum expedita enim eligendi tenetur incidunt nulla corrupti? Facilis reiciendis voluptates, tempora laboriosam quae pariatur eaque, dicta corrupti culpa nihil sed sit quo ea repellat. Eos praesentium possimus iste repellat voluptatum, sapiente alias sit saepe quae! Aliquam adipisci a quasi! Reprehenderit ipsa sit corporis dicta! Corporis cum minus repellat soluta voluptas dolore eveniet vitae asperiores provident explicabo suscipit sit nesciunt iste, consequatur molestiae possimus placeat! Molestias sed voluptates eveniet ullam debitis id explicabo, ex modi laborum, soluta ipsa nostrum excepturi aliquam.</p>
+        </div>
+      </div>
+    </section>
+
+ <!-- Institute Head Section End-->
+ <footer class=" bg-dark text-light">
+    <h5 class=" text-center py-3 m-3"> 
+        &copy 2025- All right reserved.
+    </h5>
+ </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>
+<--=============================================About page  end==========================================-->
+
+
+<--=============================================FAQ Page Start==========================================-->
+
+ <!-- FAQ start-->
+    <section class="container my-5">
+        <h2 class="text-center mb-3">
+            <span class="border border-dark border-3 border-top-0 border-end-0 border-start-0 px-4">FAQ</span>
+        </h2> <!-- title end -->
+        <div class="row">
+            <div class="col-md-8">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            What is yor name?
+                        </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Ans 1</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Que 2
+                        </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Ans 2</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Que 3
+                        </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Ans 3</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Que 4
+                        </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Ans 4</p>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Que 5
+                        </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Ans 5</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">  
+                <h2>Members List</h2>
+                <ul class="members-list">
+                    <li><a href="https://google.com" target="_blank">Zahir</a></li>
+                    <li><a href="https://google.com" target="_blank">Saidul</a></li>
+                    <li><a href="https://google.com" target="_blank">Miroz</a></li>
+                    <li><a href="https://google.com" target="_blank">Zomirul</a></li>
+                    <li><a href="https://google.com" target="_blank">Khalid</a></li>
+                </ul>
+                <p id="currentDateTime"></p>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ end-->
+
+    <!-- footer start -->
+    <footer class="text-center bg-dark text-light py-3">
+        <p class="m-0">
+            &copy; 2025 All Rights Reserved.
+        </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<--=============================================FAQ Page End==========================================-->
+
+
+<--=============================================Contact Us Start==========================================-->
+    <section class="container my-5">
+        <h2 class="text-center mb-3">
+            <span class="border border-dark border-3 border-top-0 border-end-0 border-start-0 px-4">Contact Us</span>
+        </h2> <!-- title end -->
+        <div class="row">
+            <div class="col-md-6">
+                <form method="get">
+                    <div class="row mb-3">
+                        <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                        <input type="email" name="email" class="form-control" id="inputEmail" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputPhone" class="col-sm-2 col-form-label">Phone</label>
+                        <div class="col-sm-10">
+                        <input type="text" name="phone" class="form-control" id="inputPhone" required>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="inputAddress" class="col-sm-2 col-form-label">Address</label>
+                        <div class="col-sm-10">
+                        <input type="text" name="address" class="form-control" id="inputAddress" required>
+                        </div>
+                    </div>  
+                    <button type="submit" onclick="clickAlert()" class="btn btn-primary d-block w-100">Submit</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1105269780055!2d90.34817957391321!3d23.779078187677474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1380651b5ef%3A0xe41f7a237faaaf2d!2sDhaka%20Technical%20Teachers%20Training%20Institute-DTTTI!5e0!3m2!1sen!2sbd!4v1750389405786!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Members profile end-->
+
+    <!-- footer start -->
+    <footer class="text-center bg-dark text-light py-3">
+        <p class="m-0">
+            &copy; 2025 All Rights Reserved.
+        </p>
+    </footer>
+    <!-- footer end -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<--=============================================Contact Us End==========================================-->
+
+
+<--=============================================CSS File =========================================-->
+.navbar-brand img{
+    max-width: 140px;
+}
+.nav-link{
+    padding: 1px 20px 3px 20px !important;
+}
+
+.nav-link.active:hover,
+.nav-link:hover{
+    color: #fff;
+    background: #000;
+}
+.brand-details img{
+    max-height: 300px;
+}
+.fans-feedback article p{
+    text-align: justify;
+    line-height: 1.4;
+}
+.fans-feedback img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin: 0px auto;
+}
+iframe{
+    width: 100%;
+    min-height: 350px;
+    max-height: 450px;
+}
+.members-list {
+    margin: 0px;
+    padding: 0px;
+}
+.members-list li{
+    list-style: none;
+}
+.members-list li a{
+    color: #fff;
+    background: teal;
+    text-decoration: none;
+    border-radius: 10px;
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    transition: .2s linear;
+}
+.members-list li a:hover{
+    background: #000;
+}
+
+<-- =======================CSS End=========================-->
+
+
+
+
+<-- =======================JavaScript =========================-->
+//For Alert Box in Contact Us Page
+function clickAlert() {
+    alert("Hello, Are you sure?");
+}
+
+//For Time and Date in FAQ Page
+function updateDateTime() {
+        const now = new Date();
+        const options = { 
+            weekday: 'long', 
+            year: 'numeric', 
+            month: 'long', 
+            day: 'numeric', 
+            hour: '2-digit', 
+            minute: '2-digit', 
+            second: '2-digit' 
+        };
+        const formattedDateTime = now.toLocaleDateString('en-US', options);
+        document.getElementById('currentDateTime').textContent = formattedDateTime;
+    }
+
+    // Call the function once immediately to display the time on page load
+    updateDateTime();
+
+    // Update the time every second
+    setInterval(updateDateTime, 1000); 
+
